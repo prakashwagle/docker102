@@ -1,0 +1,19 @@
+{
+  "name": "billcalculatorserver",
+  "version": "1.0.0",
+  "description": "calulate tip and tax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashwagle/docker102.git"
+  },
+  "author": "prakashwagle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakashwagle/docker102/issues"
+  },
+  "homepage": "https://github.com/prakashwagle/docker102#readme"
+}
