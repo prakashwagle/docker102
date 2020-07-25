@@ -4,8 +4,9 @@
   "description": "calulate tip and tax",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.9.7"
   },
+  "type": "module",
   "dependencies": {
     "express": "^4.17.1"
   }
