@@ -1,0 +1,56 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-sonarts",
+        "tslint-config-prettier"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "*.d.ts"
+        ]
+    },
+    "rules": {
+        "member-access": [
+            true,
+            "check-accessor",
+            "check-constructor",
+            "check-parameter-property"
+        ],
+        "interface-name": false,
+        "no-default-export": true,
+        "no-restricted-globals": true,
+        "array-type": [
+            true,
+            "generic"
+        ],
+        "jsdoc-format": [
+            true,
+            "check-multiline-start"
+        ],
+        "promise-function-async": true,
+        "cyclomatic-complexity": [
+            true,
+            20
+        ],
+        "variable-name": {
+            "options": [
+                "check-format",
+                "allow-snake-case",
+                "require-const-for-all-caps"
+            ]
+        },
+        "object-literal-sort-keys": [
+            true,
+            "match-declaration-order"
+        ],
+        "max-line-length": [
+            true,
+            {
+                "limit": 120,
+                "ignore-pattern": "^import |^export {(.*?)}",
+                "check-strings": true,
+                "check-regex": true
+            }
+        ]
+    }
+}

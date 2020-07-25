@@ -2,8 +2,9 @@
   "name": "billcalculatorserver",
   "version": "1.0.0",
   "description": "calulate tip and tax",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/prakashwagle/docker102/issues"
   },
-  "homepage": "https://github.com/prakashwagle/docker102#readme"
+  "homepage": "https://github.com/prakashwagle/docker102#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
